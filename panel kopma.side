@@ -1,0 +1,414 @@
+{
+  "id": "aabf9d38-d18d-4360-8f55-0c983a3fdc9c",
+  "version": "2.0",
+  "name": "panel kopma",
+  "url": "https://kopmaunila.com/panel/index.php",
+  "tests": [{
+    "id": "0a1fc05f-cd6c-4543-b753-a5187be26ae0",
+    "name": "tambah kegiatan",
+    "commands": [{
+      "id": "8de5b929-3400-4242-a835-18e9be7119a4",
+      "comment": "",
+      "command": "open",
+      "target": "https://kopmaunila.com/panel/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b63f809f-cd79-4eba-9e07-12095b842fcb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c77c1ef3-a3cc-4b4c-9428-d443298e7250",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) span",
+      "targets": [
+        ["css=.nav-item:nth-child(3) span", "css:finder"],
+        ["xpath=//ul[@id='sidebar-nav']/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Data Kegiatan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9662660a-4c23-4d18-bab5-e5a5b11540d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span",
+      "targets": [
+        ["css=.btn > span", "css:finder"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tambah Kegiatan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61a996cd-5581-4e1a-af87-e3535dbca53f",
+      "comment": "",
+      "command": "type",
+      "target": "id=nama_kegiatan",
+      "targets": [
+        ["id=nama_kegiatan", "id"],
+        ["name=nama_kegiatan", "name"],
+        ["css=#nama_kegiatan", "css:finder"],
+        ["xpath=//input[@id='nama_kegiatan']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Rapat Panita Temu Kader"
+    }, {
+      "id": "aab2d777-aa55-4601-9bbb-77a1c2972cfe",
+      "comment": "",
+      "command": "click",
+      "target": "id=tanggal",
+      "targets": [
+        ["id=tanggal", "id"],
+        ["name=tanggal", "name"],
+        ["css=#tanggal", "css:finder"],
+        ["xpath=//input[@id='tanggal']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17a25afb-7078-4280-b620-4ba8f765650a",
+      "comment": "",
+      "command": "click",
+      "target": "id=tanggal",
+      "targets": [
+        ["id=tanggal", "id"],
+        ["name=tanggal", "name"],
+        ["css=#tanggal", "css:finder"],
+        ["xpath=//input[@id='tanggal']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1ae4a83-8012-453f-9d87-2974db0adf66",
+      "comment": "",
+      "command": "type",
+      "target": "id=tanggal",
+      "targets": [
+        ["id=tanggal", "id"],
+        ["name=tanggal", "name"],
+        ["css=#tanggal", "css:finder"],
+        ["xpath=//input[@id='tanggal']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "2025-06-06"
+    }, {
+      "id": "7358b2d6-b60d-4703-a9c9-86a3bde8ae7e",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=tempat",
+      "targets": [
+        ["id=tempat", "id"],
+        ["name=tempat", "name"],
+        ["css=#tempat", "css:finder"],
+        ["xpath=//input[@id='tempat']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "267.375,16.203125"
+    }, {
+      "id": "86bbb28d-c4b2-4762-a2a3-54431f676988",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=tempat",
+      "targets": [
+        ["id=tempat", "id"],
+        ["name=tempat", "name"],
+        ["css=#tempat", "css:finder"],
+        ["xpath=//input[@id='tempat']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "267.375,16.203125"
+    }, {
+      "id": "6f775ee8-039d-47a5-a470-1ee394d34730",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=tempat",
+      "targets": [
+        ["id=tempat", "id"],
+        ["name=tempat", "name"],
+        ["css=#tempat", "css:finder"],
+        ["xpath=//input[@id='tempat']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "267.375,16.203125"
+    }, {
+      "id": "c70d073d-f7be-454b-8f95-d067e209ee06",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='https://kopmaunila.com/panel/dashboard/save_kegiatan']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb048377-92b5-439c-8816-8b44d6b8d4a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=tempat",
+      "targets": [
+        ["id=tempat", "id"],
+        ["name=tempat", "name"],
+        ["css=#tempat", "css:finder"],
+        ["xpath=//input[@id='tempat']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "130b4ee8-12f4-46b2-9bfc-cac0da1bc0a1",
+      "comment": "",
+      "command": "type",
+      "target": "id=tempat",
+      "targets": [
+        ["id=tempat", "id"],
+        ["name=tempat", "name"],
+        ["css=#tempat", "css:finder"],
+        ["xpath=//input[@id='tempat']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Balrek"
+    }, {
+      "id": "ad1c27ec-59c8-410d-b458-6586c6d1a5d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.me-2",
+      "targets": [
+        ["css=.me-2", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tambah')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8bd9f054-d4f4-4afe-b267-9aa23c2d0d2e",
+    "name": "edit kegiatan",
+    "commands": [{
+      "id": "66ee6d0f-345b-4e0a-9b2c-0ed11b442232",
+      "comment": "",
+      "command": "open",
+      "target": "https://kopmaunila.com/panel/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37bc049f-f038-4f22-aed3-55c11589dde0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8af9d640-d722-48be-8bc7-7a3394f0c82c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) span",
+      "targets": [
+        ["css=.nav-item:nth-child(3) span", "css:finder"],
+        ["xpath=//ul[@id='sidebar-nav']/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Data Kegiatan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4167311c-0e34-41e7-813f-35b405da35eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .col-12 > .btn > .bi",
+      "targets": [
+        ["css=tr:nth-child(1) .col-12 > .btn > .bi", "css:finder"],
+        ["xpath=//table[@id='tableData']/tbody/tr/td[5]/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//td[5]/div/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "467ce018-6d78-4425-8778-2558d3af4d6f",
+      "comment": "",
+      "command": "click",
+      "target": "id=tanggal",
+      "targets": [
+        ["id=tanggal", "id"],
+        ["name=tanggal", "name"],
+        ["css=#tanggal", "css:finder"],
+        ["xpath=//input[@id='tanggal']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6344976-edf5-4c53-a032-d02fc821179e",
+      "comment": "",
+      "command": "type",
+      "target": "id=tanggal",
+      "targets": [
+        ["id=tanggal", "id"],
+        ["name=tanggal", "name"],
+        ["css=#tanggal", "css:finder"],
+        ["xpath=//input[@id='tanggal']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "2025-06-27"
+    }, {
+      "id": "722113f6-ffb1-425f-b782-b203fed22ae9",
+      "comment": "",
+      "command": "click",
+      "target": "id=nama_kegiatan",
+      "targets": [
+        ["id=nama_kegiatan", "id"],
+        ["name=nama_kegiatan", "name"],
+        ["css=#nama_kegiatan", "css:finder"],
+        ["xpath=//input[@id='nama_kegiatan']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef7b00f7-9df7-49e6-9455-08e9223b22ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=nama_kegiatan",
+      "targets": [
+        ["id=nama_kegiatan", "id"],
+        ["name=nama_kegiatan", "name"],
+        ["css=#nama_kegiatan", "css:finder"],
+        ["xpath=//input[@id='nama_kegiatan']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Piket sekretariatan Pengurus Kopma Unila 23- 27 Mei 2025"
+    }, {
+      "id": "b2d72b16-648e-44e1-96e4-ffa5f620a18d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.me-2",
+      "targets": [
+        ["css=.me-2", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/section/div/div/div/div[2]/form/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Simpan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5ad6e540-75a0-4695-862e-2c73fd79d080",
+    "name": "logout",
+    "commands": [{
+      "id": "ac2577b4-d821-4ae1-94f1-7be0672b193d",
+      "comment": "",
+      "command": "open",
+      "target": "https://kopmaunila.com/panel/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af55347b-76b0-46b0-91bc-97cebf961fe4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a85a24e8-6480-4d6a-b93f-945681bdb6eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(6) span",
+      "targets": [
+        ["css=.nav-item:nth-child(6) span", "css:finder"],
+        ["xpath=//ul[@id='sidebar-nav']/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4d4ec2a0-f2fd-45a3-a363-8775a9a0704d",
+    "name": "hapus kegiatan",
+    "commands": [{
+      "id": "574aeec1-1284-4d7e-89e2-6065ee9f8ad7",
+      "comment": "",
+      "command": "open",
+      "target": "https://kopmaunila.com/panel/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45217d74-fdd4-40b2-984e-1b46b6b228cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d7c084b-d759-4c12-b384-db367adac47f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Data Kegiatan",
+      "targets": [
+        ["linkText=Data Kegiatan", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//ul[@id='sidebar-nav']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://kopmaunila.com/panel/dashboard/data_kegiatan')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Data Kegiatan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46459245-e4e5-466b-870c-2fefb032e8cf",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4595654-7197-408e-a8ee-2c89b0a4e056",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) form .bi",
+      "targets": [
+        ["css=tr:nth-child(4) form .bi", "css:finder"],
+        ["xpath=//table[@id='tableData']/tbody/tr[4]/td[5]/div/div/form/button/i", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[5]/div/div/form/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f665f8ac-dbcb-4995-96d1-92273d84aac1",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "Apakah anda yakin ingin menghapus data ini?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ffc73e0-be54-4f09-a194-5b1a6ddb42b0",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8808637b-4921-4a06-8e52-067b9a0eadc8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0a1fc05f-cd6c-4543-b753-a5187be26ae0"]
+  }],
+  "urls": ["https://kopmaunila.com/panel/index.php", "https://kopmaunila.com/panel/index.php/dashboard/data_kegiatan"],
+  "plugins": []
+}
