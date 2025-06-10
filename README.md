@@ -42,7 +42,7 @@ Berikut adalah anggota kelompok yang berkontribusi dalam proyek ini:
 Untuk penjelasan lebih detail dan demonstrasi langsung mengenai proses pengujian, silakan tonton video presentasi kami di YouTube dengan mengklik gambar di bawah ini.
 
 <a href="https://youtu.be/oOj_wRbh9fU" target="_blank">
-  <img src="https://img.youtube.com/vi/VIDEO_ID_ANDA/maxresdefault.jpg" alt="Link Presentasi Video Proyek" style="width:100%;">
+  <img src="https://tse2.mm.bing.net/th/id/OIP.CVmHJ8Eh-MN872a3I5kF-QHaHa?rs=1&pid=ImgDetMain" alt="Link Presentasi Video Proyek" style="width:100%;">
 </a>
 
 ---
