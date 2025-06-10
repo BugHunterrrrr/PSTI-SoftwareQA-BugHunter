@@ -1,0 +1,602 @@
+{
+  "id": "a0dd251f-9343-4415-a7de-e33c6fc023b9",
+  "version": "2.0",
+  "name": "Kopma ",
+  "url": "https://www.kopmaunila.com/panel",
+  "tests": [{
+    "id": "3a9b8a4c-3f53-4b96-b7de-46e2e8cd0453",
+    "name": "Login Lagi",
+    "commands": [{
+      "id": "f8beaff7-7454-4f9d-9115-043dd6b5a44b",
+      "comment": "",
+      "command": "open",
+      "target": "https://kopmaunila.com/panel/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26a4a397-1ad5-4438-8711-0ffc8e76c4c4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f88e92a3-9a7b-4d68-88ba-22928daf588e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//ul[@id='sidebar-nav']/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://kopmaunila.com/panel/logout')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cdf6fbf-18fa-48c3-91df-fbf7ba9f54be",
+      "comment": "",
+      "command": "click",
+      "target": "id=yourUsername",
+      "targets": [
+        ["id=yourUsername", "id"],
+        ["name=login", "name"],
+        ["css=#yourUsername", "css:finder"],
+        ["xpath=//input[@id='yourUsername']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51a82002-f6b8-4ecc-b397-5be4274e85c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=yourUsername",
+      "targets": [
+        ["id=yourUsername", "id"],
+        ["name=login", "name"],
+        ["css=#yourUsername", "css:finder"],
+        ["xpath=//input[@id='yourUsername']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8f7e860-edf1-4ea8-a3b0-7ebfb5a9325d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=yourUsername",
+      "targets": [
+        ["id=yourUsername", "id"],
+        ["name=login", "name"],
+        ["css=#yourUsername", "css:finder"],
+        ["xpath=//input[@id='yourUsername']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58abcfa7-7196-4d9c-9d75-25f3f2b52982",
+      "comment": "",
+      "command": "type",
+      "target": "id=yourUsername",
+      "targets": [
+        ["id=yourUsername", "id"],
+        ["name=login", "name"],
+        ["css=#yourUsername", "css:finder"],
+        ["xpath=//input[@id='yourUsername']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "panitia"
+    }, {
+      "id": "b3c22bad-8194-44de-b16a-9da8470d8bfe",
+      "comment": "",
+      "command": "click",
+      "target": "id=yourPassword",
+      "targets": [
+        ["id=yourPassword", "id"],
+        ["name=password", "name"],
+        ["css=#yourPassword", "css:finder"],
+        ["xpath=//input[@id='yourPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecef10f7-e792-41e7-bf01-d7a13edc5640",
+      "comment": "",
+      "command": "click",
+      "target": "id=yourPassword",
+      "targets": [
+        ["id=yourPassword", "id"],
+        ["name=password", "name"],
+        ["css=#yourPassword", "css:finder"],
+        ["xpath=//input[@id='yourPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db965fe8-3f35-47b5-b51f-b6c264599426",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=yourPassword",
+      "targets": [
+        ["id=yourPassword", "id"],
+        ["name=password", "name"],
+        ["css=#yourPassword", "css:finder"],
+        ["xpath=//input[@id='yourPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cac518f6-f7a9-41bf-9c84-b28213504b77",
+      "comment": "",
+      "command": "type",
+      "target": "id=yourPassword",
+      "targets": [
+        ["id=yourPassword", "id"],
+        ["name=password", "name"],
+        ["css=#yourPassword", "css:finder"],
+        ["xpath=//input[@id='yourPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "hanyapanitiasaja"
+    }, {
+      "id": "87535d85-e40b-4ecc-b277-9f260b9663e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b73859ed-0aa8-4498-adc3-cf63e8fc9776",
+      "comment": "",
+      "command": "click",
+      "target": "css=.breadcrumb",
+      "targets": [
+        ["css=.breadcrumb", "css:finder"],
+        ["xpath=//main[@id='main']/div/nav/ol", "xpath:idRelative"],
+        ["xpath=//ol", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2a44a79e-6426-4539-a5cf-d83d1d7c0c5b",
+    "name": "Login",
+    "commands": [{
+      "id": "084ec401-a16e-48e1-b39e-1d9113575549",
+      "comment": "",
+      "command": "open",
+      "target": "https://kopmaunila.com/panel/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4752f4e0-ce13-42b0-ac42-cccbd1a377ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45bca5db-3171-402f-a134-ff71b8ba8804",
+      "comment": "",
+      "command": "click",
+      "target": "id=yourUsername",
+      "targets": [
+        ["id=yourUsername", "id"],
+        ["name=login", "name"],
+        ["css=#yourUsername", "css:finder"],
+        ["xpath=//input[@id='yourUsername']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a8b47c1-6967-4abb-8854-e6143e2c7e3a",
+      "comment": "",
+      "command": "click",
+      "target": "id=yourUsername",
+      "targets": [
+        ["id=yourUsername", "id"],
+        ["name=login", "name"],
+        ["css=#yourUsername", "css:finder"],
+        ["xpath=//input[@id='yourUsername']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0af491fb-f2c3-42f3-bc9b-5bb68fc9d2a0",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=yourUsername",
+      "targets": [
+        ["id=yourUsername", "id"],
+        ["name=login", "name"],
+        ["css=#yourUsername", "css:finder"],
+        ["xpath=//input[@id='yourUsername']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76cbd10b-7c30-4f5d-bb87-359a6a703c0b",
+      "comment": "",
+      "command": "type",
+      "target": "id=yourUsername",
+      "targets": [
+        ["id=yourUsername", "id"],
+        ["name=login", "name"],
+        ["css=#yourUsername", "css:finder"],
+        ["xpath=//input[@id='yourUsername']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "panitia"
+    }, {
+      "id": "37914862-5f3f-4813-9869-b6392e898e9c",
+      "comment": "",
+      "command": "click",
+      "target": "id=yourPassword",
+      "targets": [
+        ["id=yourPassword", "id"],
+        ["name=password", "name"],
+        ["css=#yourPassword", "css:finder"],
+        ["xpath=//input[@id='yourPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04d2f40a-3f13-4858-bdd0-b7a6d047cf1f",
+      "comment": "",
+      "command": "click",
+      "target": "id=yourPassword",
+      "targets": [
+        ["id=yourPassword", "id"],
+        ["name=password", "name"],
+        ["css=#yourPassword", "css:finder"],
+        ["xpath=//input[@id='yourPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "297967ae-0509-4fa8-8365-f14592b76ea5",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=yourPassword",
+      "targets": [
+        ["id=yourPassword", "id"],
+        ["name=password", "name"],
+        ["css=#yourPassword", "css:finder"],
+        ["xpath=//input[@id='yourPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "085aab89-e90d-4bc5-9faf-cdb03d5fa75c",
+      "comment": "",
+      "command": "type",
+      "target": "id=yourPassword",
+      "targets": [
+        ["id=yourPassword", "id"],
+        ["name=password", "name"],
+        ["css=#yourPassword", "css:finder"],
+        ["xpath=//input[@id='yourPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "hanyapanitiasaja"
+    }, {
+      "id": "92377463-a47e-43ed-923e-b2eb0ac6f03d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "69dd7227-1c75-42c7-ae2c-fe7ddbe51309",
+    "name": "Memoroid",
+    "commands": [{
+      "id": "b3857593-8f4b-4741-853f-c1913afb9def",
+      "comment": "",
+      "command": "open",
+      "target": "https://memoroid-psi.vercel.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "927ec4d2-3bf8-40e8-aa5a-5dc1b81bafaa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf4e84a7-d26c-4cb1-adec-6608d56f6707",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-2 > img",
+      "targets": [
+        ["css=.col-2 > img", "css:finder"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94ea71e1-35e7-4bd9-9c92-f08ffe5ea3b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Create your memories Take your moments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4980700-fc3f-4ab1-8f44-c04e64e63256",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-4:nth-child(1) img",
+      "targets": [
+        ["css=.col-4:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Memoroid Platinum']", "xpath:img"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17756cce-9b52-4e32-827c-d17aa52cdf46",
+      "comment": "",
+      "command": "select",
+      "target": "css=select",
+      "targets": [],
+      "value": "label=R3"
+    }, {
+      "id": "2fca47c6-e097-436f-bf9e-c9c8e7c90dca",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "792bcc2c-a97c-4a26-a2ef-879eb3a7ec05",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "8203fbc0-c8f0-4289-8380-445f3a2023c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-2:nth-child(2)",
+      "targets": [
+        ["css=.col-2:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aa228ec-764b-43cf-8037-b943d14096da",
+      "comment": "",
+      "command": "click",
+      "target": "id=buy-link",
+      "targets": [
+        ["id=buy-link", "id"],
+        ["linkText=Beli", "linkText"],
+        ["css=#buy-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Beli')]", "xpath:link"],
+        ["xpath=//a[@id='buy-link']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'https://wa.me/6285183202292?text=Halo, saya ingin membeli Memoroid Platinum seharga Rp500. Apakah stok masih tersedia?')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Beli')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63966ad9-13f3-4365-a2cd-1078968849b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_9ta4",
+      "targets": [
+        ["css=.\\_9ta4", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div/section/div/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "953d0a31-72cc-4080-9a96-dd01eeddef2e",
+      "comment": "",
+      "command": "click",
+      "target": "id=buy-link",
+      "targets": [
+        ["id=buy-link", "id"],
+        ["linkText=Beli", "linkText"],
+        ["css=#buy-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Beli')]", "xpath:link"],
+        ["xpath=//a[@id='buy-link']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'https://wa.me/6285183202292?text=Halo, saya ingin membeli Memoroid Platinum seharga Rp500. Apakah stok masih tersedia?')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Beli')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "94cc2802-a6aa-4934-a7e2-56ec18d130bb",
+    "name": "Loginnn",
+    "commands": [{
+      "id": "d80c7558-4ce0-44d3-ba49-484580a0f7f9",
+      "comment": "",
+      "command": "open",
+      "target": "https://kopmaunila.com/panel/index.php/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a5a914b-751e-446a-aad9-aaced1737493",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51be6d91-b860-4c6b-961c-db20494b02ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=yourUsername",
+      "targets": [
+        ["id=yourUsername", "id"],
+        ["name=login", "name"],
+        ["css=#yourUsername", "css:finder"],
+        ["xpath=//input[@id='yourUsername']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a974568f-5974-42ec-b95a-bece13c07586",
+      "comment": "",
+      "command": "click",
+      "target": "id=yourUsername",
+      "targets": [
+        ["id=yourUsername", "id"],
+        ["name=login", "name"],
+        ["css=#yourUsername", "css:finder"],
+        ["xpath=//input[@id='yourUsername']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ad7778f-41a6-42a7-a525-5c0715264557",
+      "comment": "",
+      "command": "click",
+      "target": "id=yourUsername",
+      "targets": [
+        ["id=yourUsername", "id"],
+        ["name=login", "name"],
+        ["css=#yourUsername", "css:finder"],
+        ["xpath=//input[@id='yourUsername']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f001bab0-32ce-4ef8-9392-e6ce091909f6",
+      "comment": "",
+      "command": "click",
+      "target": "id=yourUsername",
+      "targets": [
+        ["id=yourUsername", "id"],
+        ["name=login", "name"],
+        ["css=#yourUsername", "css:finder"],
+        ["xpath=//input[@id='yourUsername']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12a9e95d-d41e-4cef-a135-a189160ea975",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=yourUsername",
+      "targets": [
+        ["id=yourUsername", "id"],
+        ["name=login", "name"],
+        ["css=#yourUsername", "css:finder"],
+        ["xpath=//input[@id='yourUsername']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30cfe77c-25c2-4690-8216-c482d8e81da1",
+      "comment": "",
+      "command": "type",
+      "target": "id=yourUsername",
+      "targets": [
+        ["id=yourUsername", "id"],
+        ["name=login", "name"],
+        ["css=#yourUsername", "css:finder"],
+        ["xpath=//input[@id='yourUsername']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "panitia"
+    }, {
+      "id": "60c9c878-5549-488d-a2c0-961f93c26db8",
+      "comment": "",
+      "command": "click",
+      "target": "id=yourPassword",
+      "targets": [
+        ["id=yourPassword", "id"],
+        ["name=password", "name"],
+        ["css=#yourPassword", "css:finder"],
+        ["xpath=//input[@id='yourPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca6761e7-6103-4a01-9021-a57d88e47efb",
+      "comment": "",
+      "command": "click",
+      "target": "id=yourPassword",
+      "targets": [
+        ["id=yourPassword", "id"],
+        ["name=password", "name"],
+        ["css=#yourPassword", "css:finder"],
+        ["xpath=//input[@id='yourPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bca4baf6-b49f-4a07-b10d-25d0061e9fcb",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=yourPassword",
+      "targets": [
+        ["id=yourPassword", "id"],
+        ["name=password", "name"],
+        ["css=#yourPassword", "css:finder"],
+        ["xpath=//input[@id='yourPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5f5a984-faef-4fe5-bc62-782083a696db",
+      "comment": "",
+      "command": "type",
+      "target": "id=yourPassword",
+      "targets": [
+        ["id=yourPassword", "id"],
+        ["name=password", "name"],
+        ["css=#yourPassword", "css:finder"],
+        ["xpath=//input[@id='yourPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "hanyapanitiasaja"
+    }, {
+      "id": "378077c7-a0dc-44be-a07c-ded7e0c95189",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "33252caf-ba07-41d7-a71f-2205ca64bf55",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3a9b8a4c-3f53-4b96-b7de-46e2e8cd0453"]
+  }],
+  "urls": ["https://kopmaunila.com/panel/index.php", "https://memoroid-psi.vercel.app/", "https://www.kopmaunila.com/panel"],
+  "plugins": []
+}
