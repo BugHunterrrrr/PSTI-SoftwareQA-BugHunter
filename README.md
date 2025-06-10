@@ -37,6 +37,16 @@ Berikut adalah anggota kelompok yang berkontribusi dalam proyek ini:
 
 ---
 
+## 🎥 Video Presentasi Proyek
+
+Untuk penjelasan lebih detail dan demonstrasi langsung mengenai proses pengujian, silakan tonton video presentasi kami di YouTube dengan mengklik gambar di bawah ini.
+
+<a href="https://www.youtube.com/watch?v=VIDEO_ID_ANDA" target="_blank">
+  <img src="https://img.youtube.com/vi/VIDEO_ID_ANDA/maxresdefault.jpg" alt="Link Presentasi Video Proyek" style="width:100%;">
+</a>
+
+---
+
 ## 🛠️ Panduan Pengujian dengan Selenium IDE
 
 <details>
