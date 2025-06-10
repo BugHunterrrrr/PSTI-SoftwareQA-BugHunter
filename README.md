@@ -1,3 +1,3 @@
 # PSTI-SoftwareQA-BugHunter
 
-Nama Aplikasi : Strava
+Nama Web : Panel Koperasi Mahasiswa Universitas Lampung
